@@ -30,7 +30,13 @@ PROJECTRELATIVE_PATH = src
 O = $(PROJECT_OUTPUT_DIR)/$(CONFIGNAME)/$(PROJECTRELATIVE_PATH)
 
 # Object files for local .cc, .msg and .sm files
-OBJS = $O/Scheduling/MaxDataSorter.o $O/Scheduling/MemoryItem.o $O/Scheduling/MemoryScheduler.o $O/Messages/PacketMessage_m.o $O/Messages/TextMessage_m.o
+OBJS = \
+    $O/Algorithm/MobilityAlg.o \
+    $O/Scheduling/MaxDataSorter.o \
+    $O/Scheduling/MemoryItem.o \
+    $O/Scheduling/MemoryScheduler.o \
+    $O/Messages/PacketMessage_m.o \
+    $O/Messages/TextMessage_m.o
 
 # Message files
 MSGFILES = \
