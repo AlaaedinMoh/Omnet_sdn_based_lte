@@ -1,0 +1,17 @@
+<config>
+    <interface hosts='*' address='10.x.x.x' netmask='255.255.255.0'/>
+    <!-- <route hosts="*"> -->
+    
+    <wireless hosts="eNodeB1 ueTx1*"/>
+    <wireless hosts="eNodeB1 ueRx1"/>    
+    <wireless hosts="eNodeB1 ueRx2*"/>
+    
+    <wireless hosts="eNodeB2 ueTx2*"/>
+    <wireless hosts="eNodeB2 ueTx4*"/>
+    <wireless hosts="eNodeB2 ueRx4*"/>
+    
+    <wireless hosts="eNodeB3 ueTx5*"/>
+    <wireless hosts="eNodeB3 ueRx5*"/>
+    <wireless hosts="eNodeB3 ueRx3*"/>
+    <wireless hosts="eNodeB2 ueTx3*"/>
+</config>

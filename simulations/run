@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/d2d_project -n .:../src $*
+# for shared lib, use: opp_run -l ../src/d2d_project -n .:../src $*
